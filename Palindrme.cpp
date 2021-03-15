@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <stdio.h>
 #include <iostream>
 #include <string>
@@ -24,7 +23,7 @@ bool IsTheWordPalindrome(std::string str)
 }
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 std::string str = "DAD";
 std::vector<std::string> stringVec;
@@ -39,4 +38,5 @@ if(result == false)
 std::cout<<*itor<<" IS NOT A PALINDROME WORD"<<std::endl;
 else
 std::cout<<*itor<<" IS A PALINDROME WORD"<<std::endl;
+}
 }
